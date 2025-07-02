@@ -1,25 +1,16 @@
-Certainly! Below is the content you provided, properly formatted into a professional and comprehensive `README.md` file for your **Nero-2-vest dApp**:
-
----
-
 # Nero-2-vest dApp
-
-![Logo](./public/logo.png)
 
 ## Overview
 
-**Nero-2-vest** is a decentralized application (dApp) developed for the **NERO Chain Hackathon 2025**, designed to facilitate blockchain-based startup funding using **Account Abstraction (AA)** on the NERO Testnet. Built with TypeScript and React, the app integrates advanced EVM-compatible libraries (`ethers.js`, `userop`, `viem`) and authentication SDKs (`@web3auth/modal`) for secure, gas-optimized wallet interactions. It features a dual-view dashboard for both startups and investors, prioritizing modularity, scalability, and seamless integration within the NERO ecosystem.
+**Nero-2-vest** is a decentralized application (dApp) developed to facilitate blockchain-based startup funding using **Account Abstraction (AA)** on the NERO Testnet. Built with TypeScript and React, the app integrates advanced EVM-compatible libraries (`ethers.js`, `userop`, `viem`) and authentication SDKs (`@web3auth/modal`) for secure, gas-optimized wallet interactions. It features a dual-view dashboard for both startups and investors, prioritizing modularity, scalability, and seamless integration within the NERO ecosystem.
 
-* **Repository**: *\[GitHub Link Placeholder]*
-* **Live Demo**: *\[Demo Link Placeholder]*
-* **Hackathon**: NERO Chain Hackathon 2025
-* **Build Status**: Alpha Release
+* **Repository**: *[GitHub Link](https://github.com/ernnies/nero-2-vest.git)*
+* **Live Demo**: *[Demo Link Placeholder](https://nero-2-vest.netlify.app/)*
 * **Network**: NERO Testnet (Chain ID: `0x2b1`)
 * **RPC URL**: `https://rpc-testnet.nerochain.io`
-
 ---
 
-## 🔧 Functional Specifications
+## Functional Specifications
 
 * **Core Features**:
 
@@ -31,11 +22,11 @@ Certainly! Below is the content you provided, properly formatted into a professi
   * Built on `userop` for gasless, AA-based UserOperations
 * **UI/UX**:
 
-  * Built with React, Tailwind CSS, and Framer Motion for modular design and animation
+* Built with React, Tailwind CSS, and Framer Motion for modular design and animation
 
 ---
 
-## 🚀 Problem It Solves
+## Problem It Solves
 
 * **Gas Fees**: Reduces gas complexity using UserOperation bundling
 * **Onboarding Complexity**: Simplifies wallet interaction for non-technical users
@@ -44,7 +35,7 @@ Certainly! Below is the content you provided, properly formatted into a professi
 
 ---
 
-## 🧱 Software Architecture
+## Software Architecture
 
 ### Frontend
 
@@ -122,7 +113,7 @@ export default defineConfig({
 
 ---
 
-## 🔄 Integration Workflow
+## Integration Workflow
 
 1. **Wallet Connectivity**:
 
@@ -142,7 +133,7 @@ export default defineConfig({
 
 ---
 
-## 🧪 TypeScript & Config
+## TypeScript & Config
 
 ```json
 {
@@ -161,7 +152,7 @@ Extend `Window` with `ethereum` in `src/types/window.d.ts`.
 
 ---
 
-## 🛠️ Installation Guide
+## Installation Guide
 
 ### Prerequisites
 
@@ -172,7 +163,7 @@ Extend `Window` with `ethereum` in `src/types/window.d.ts`.
 ### Setup
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ernnies/nero-2-vest.git
 cd nero-2-vest
 npm install --legacy-peer-deps
 ```
@@ -209,7 +200,7 @@ npm run build
 
 ---
 
-## 🧭 Usage Guide
+## Usage Guide
 
 * **Startup View**: `/startup`
 * **Investor View**: `/investor`
@@ -218,7 +209,7 @@ npm run build
 
 ---
 
-## 🧗 Challenges Faced
+## Challenges Faced
 
 * React-scripts & TypeScript conflicts resolved via `craco`
 * Missing `userop`/`viem` types fixed via manual install
@@ -227,7 +218,7 @@ npm run build
 
 ---
 
-## 📚 Lessons Learned
+## Lessons Learned
 
 * Vite offers significant build performance advantages
 * `userop` requires accurate EntryPoint alignment
@@ -236,15 +227,15 @@ npm run build
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 
-### 🧩 Wave 1 – Community Tools (July 2025)
+### Wave 1 – Community Tools (July 2025)
 
 * Quadratic voting smart contract
 * Token-gated mentorship marketplace
 * Real-time investor dashboard with Chart.js
 
-### 🌉 Wave 2 – Multi-Chain + Mainnet (August 2025)
+### Wave 2 – Multi-Chain + Mainnet (August 2025)
 
 * LayerZero-based bridge integration
 * NFT module (ERC-721, `openzeppelin`)
@@ -252,7 +243,7 @@ npm run build
 
 ---
 
-## 🤝 Contribution Guide
+## Contribution Guide
 
 ```bash
 git checkout -b feature/<name>
@@ -274,7 +265,7 @@ git commit -m "feat: <description>"
 
 ---
 
-## 💬 Acknowledgments
+## Acknowledgments
 
 * **NERO Chain Team** – RPC & AA testnet support
 * **xAI/Grok** – Development feedback
@@ -282,29 +273,3 @@ git commit -m "feat: <description>"
 * **OpenZeppelin** – Smart contract libraries
 
 ---
-
-## 📞 Contact
-
-* **Developer**: *\[Your Name]*
-* **Email**: *\[Your Email]*
-* **X (Twitter)**: \[@YourHandle]
-
----
-
-## 🧠 Notes & Enhancements
-
-* Configure `.gitignore` to exclude `node_modules`, `build`, `.env`
-* Replace all placeholder URLs and keys
-* Deploy via [Vercel](https://vercel.com/) or [Netlify](https://netlify.com/)
-* Add screenshots or GIF demos under `/public` and embed them
-
----
-
-Let me know if you’d like:
-
-* Auto-generated API reference docs
-* Smart contract stubs
-* Deployment walkthrough
-* Hackathon pitch deck write-up
-
-You're all set to showcase Nero-2-vest!

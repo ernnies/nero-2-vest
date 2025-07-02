@@ -229,13 +229,13 @@ npm run build
 
 ## Roadmap
 
-### Wave 1 – Community Tools (July 2025)
+### Wave 1 – Community Tools 
 
 * Quadratic voting smart contract
 * Token-gated mentorship marketplace
 * Real-time investor dashboard with Chart.js
 
-### Wave 2 – Multi-Chain + Mainnet (August 2025)
+### Wave 2 – Multi-Chain + Mainnet 
 
 * LayerZero-based bridge integration
 * NFT module (ERC-721, `openzeppelin`)
@@ -259,7 +259,7 @@ git commit -m "feat: <description>"
 
 ---
 
-## 📜 License
+## License
 
 [MIT License](./LICENSE)
 
